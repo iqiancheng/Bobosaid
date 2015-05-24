@@ -1,6 +1,9 @@
-波波说[1]
----
-powered by `QianCheng`[2]
+[波波说][1]
 
-[1] http://alibobo.me
-[2] http://qiancheng.me/about
+---
+Powered by [`千橙`][2]
+
+
+
+[1]:  http://alibobo.me
+[2]:  http://qiancheng.me/about
