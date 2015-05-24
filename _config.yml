@@ -71,8 +71,8 @@ theme: next
 deploy:
   type: git
   repo:
-    gitcafe: git@gitcafe.com:Bobosaid/Bobosaid.git,gitcafe-pages 
-	
+    github: git@github.com:iqiancheng/Bobosaid.git,master 
+    gitcafe: git@gitcafe.com:Bobosaid/Bobosaid.git,gitcafe-pages	
 	
 # =============================================================================
 # NexT Theme configuration
