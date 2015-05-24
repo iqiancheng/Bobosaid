@@ -1,12 +1,11 @@
 <!doctype html>
-<html class="theme-next {% if theme.use_motion %}use-motion{% endif %} {% if theme.scheme %}theme-next-{{ theme.scheme | lower }}{% endif %}">
+<html class="theme-next {% if theme.use_motion %}use-motion{% endif %} {% if theme.theme %}theme-next-{{theme.theme}}{% endif %}">
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
 </head>
 
 <body>
-<!--[if lte IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari." style='margin-left:auto;margin-right:auto;display: block;'/></a></div> <![endif]-->
   <div class="container one-column {% block page_class %}{% endblock %}">
     <div class="headband"></div>
 
@@ -19,18 +18,26 @@
     <div id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content">
-          {% block content %}{% endblock %}
+          {% if is_home() or is_post() %}
+            {% set postsClass = "posts-expand" %}
+          {% else %}
+            {% set postsClass = "posts-collapse" %}
+          {% endif %}
+
+          <div id="posts" class="{{ postsClass }}">
+            {% block content %}{% endblock %}
+          </div>
+
+          {% if not is_post() and (page.prev || page.next) %}
+            <div class="pagination">
+              {{ paginator({prev_text: '&laquo;', next_text: '&raquo;', mid_size: 1}) }}
+            </div>
+          {% endif %}
         </div>
 
-        {% if (theme.duoshuo_hotartical and page.title)  %}
-        <!-- 多说热评文章-->
-        <p>热评文章</p>
-        <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
-        {% endif %}
+        {% include '_partials/sidebar.swig' %}
+
       </div>
-
-
-      {% block sidebar %}{% endblock %}
     </div>
 
     <div id="footer" class="footer">
@@ -53,19 +60,9 @@
 
   {% block script_extra %}{% endblock %}
 
-  <script type="text/javascript">
-    var HEXO_SIDEBAR_CONFIGURATION = '{{ theme.sidebar }}';
-    $(document).ready(function () {
-      if (HEXO_SIDEBAR_CONFIGURATION === 'always') {
-        displaySidebar();
-      }
-    });
-  </script>
-
   {% include '_scripts/mathjax.swig' %}
-  {% block comment_system %}{% endblock %}
-
-  {% include '_scripts/baidushare.swig' %}
+  {% include '_scripts/comments/duoshuo.swig' %}
+  {% include '_scripts/comments/disqus.swig' %}
   {% include '_scripts/analytics/google-analytics.swig' %}
 </body>
 </html>

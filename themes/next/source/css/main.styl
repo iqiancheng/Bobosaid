@@ -5,7 +5,6 @@ $is-mist = hexo-config('scheme') == 'Mist';
 // Core variables and mixins
 @import "_variables/base";
 @import "_variables/mist" if $is-mist;
-@import "_custom/variables";
 @import "_core/mixins";
 
 
@@ -62,4 +61,4 @@ $is-mist = hexo-config('scheme') == 'Mist';
 @import "_mist" if $is-mist;
 
 // Custom styles
-@import "_custom/custom";
+@import "_custom";

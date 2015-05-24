@@ -1,6 +1,5 @@
 {% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+{% import '_macro/post.swig' as render %}
 
 {% block title %} {{ config.title }} {% endblock %}
 
@@ -9,20 +8,7 @@
 {% endblock %}
 
 {% block content %}
-  <div id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
-    {% endfor %}
-  </div>
-
-  {% include '_partials/pagination.swig' %}
-{% endblock %}
-
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
-
-{% block comment_system %}
-  {% include '_scripts/comments/duoshuo.swig' %}
-  {% include '_scripts/comments/disqus.swig' %}
+  {% for post in page.posts %}
+    {{ render.post(post) }}
+  {% endfor %}
 {% endblock %}

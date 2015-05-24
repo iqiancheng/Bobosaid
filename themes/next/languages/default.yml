@@ -49,7 +49,6 @@ state:
   posts: posts
   pages: pages
   tags: tags
-  categories: categories
 
 cheers:
   um: Um..
