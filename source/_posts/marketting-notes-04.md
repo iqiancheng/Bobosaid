@@ -58,11 +58,11 @@ category: 札记
 
 如果你十分肯定，自己在专一化方面已没有问题，也有足够的能力做好多样化，这一点当我没说。
 ### 4.1.3 触发性强，顾客会一见倾心
-![奥黛丽·赫本](http://image.baidu.com/i?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&word=%E5%A5%A5%E9%BB%9B%E4%B8%BD%E8%B5%AB%E6%9C%AC&pn=0&spn=0&di=203845303530&pi=&rn=1&ie=utf-8&oe=utf-8&cl=2&lm=-1&cs=430556286%2C588628995&os=236165551%2C3897234328&adpicid=0&ln=21&fr=ala&sme=0&cg=&bdtype=0&objurl=http%3A%2F%2Fd02.res.meilishuo.net%2Fpic%2Fm%2F89%2F5e%2Fa151b348acb4ed6d5b1a48eaf837_510_340.jpeg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3B4jtstfi75_z%26e3Bv54AzdH3Ffiw6jAzdH3Fn90d9b8nc)
+![奥黛丽·赫本](／images／hb_510_340.jpeg)
 我相信，任何一个男人，第一眼看到奥黛丽·赫本时，一定会被其绝世容颜所倾倒，这就是美的力量。爱美之心，人皆有之。任何一种人们能够从中发现美的事物，都能引发欣赏者的喜爱之情。一件产品，如果能让顾客付诸正面情感的话，那一定是这种美。它就像一个触发器，在顾客与其接触的一瞬间，触发人们对产品的欣赏，和对拥有它的向往。
 
 这种美，源自产品外观设计。它可以是一种态度，一种格调，传递给顾客一种逼格，或是一种情怀。
-![IMac G3苹果电脑，看上去让人有想舔一口的冲动](http://image.baidu.com/i?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&word=IMac%20G3%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91&step_word=&pn=59&spn=0&di=69658212360&pi=&rn=1&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=3907&cl=2&lm=-1&st=undefined&cs=42122514%2C3966652455&os=1513951835%2C3594397149&adpicid=0&ln=1569&fr=%2C&fmq=1432536146823_R&ic=undefined&s=undefined&se=1&sme=0&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&objurl=http%3A%2F%2Fwww.pconline.com.cn%2Fnews%2Fothers%2F0602%2Fpic%2FIMAC_news_021401_4_thumb.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fw6vi_z%26e3Brv5gstgj_z%26e3Bv54_z%26e3BvgAzdH3FgjofAzdH3F5pij6fAzdH3FamadAzdH3F0c0900_n_z%26e3Bip4s)
+![IMac G3苹果电脑，看上去让人有想舔一口的冲动](／images／IMAC_news.jpg)
 我将能引发顾客喜爱之情的产品特性，称之为触发性。不同的目标顾客，在审美上存在差异，触发性因顾客群体而异。
 
 企业考虑增加触发性时，可以从以下两个方面入手:
