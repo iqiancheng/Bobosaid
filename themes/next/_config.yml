@@ -4,6 +4,7 @@ menu:
   archives: /archives
 #  tags: /tags
   about: /about
+  recommand: /recommand
 
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
