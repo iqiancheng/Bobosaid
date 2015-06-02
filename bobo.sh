@@ -3,6 +3,7 @@
 #####################################
 var=`date +%Y-%m-%d" "%H:%M:%S`;
 # track
+git config --global core.autocrlf false   ;
 git add . --all;
 git commit -m "update source at ${var} via shell.";
 
@@ -17,7 +18,7 @@ git push origin master;
 #   DEPLOY
 #####################################
 #深度清理
-#:rm public;db.json;.deploy_git
+#:rm public;db.json;.deploy_git;
 #清理
 hexo clean;
 #构建
