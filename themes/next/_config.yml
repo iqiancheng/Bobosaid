@@ -66,3 +66,8 @@ images: images
 
 # Theme version
 version: 0.4.0
+
+#### Image
+logo:
+  enable: true
+  src: logo.png 

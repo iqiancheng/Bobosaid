@@ -1,12 +1,22 @@
 <h1 class="site-meta">
+  <div class=site-header>
+    <span class="logo">
+        {% if theme.logo.enable %}
+         <a href="{{ config.root }}" class="brand">
+          <img src="{{ url_for(theme.logo.src) }}"/>
+        </a>
+        {% endif %}
+   </span>
+  <!--
   <span class="logo-line-before"><i></i></span>
+  -->
   <a href="{{ config.root }}" class="brand">
-      <span class="logo">
-        <i class="icon-logo"></i>
-      </span>
       <span class="site-title">{{ config.title }}</span>
   </a>
-  <span class="logo-line-after"><i></i></span>
+    <!--
+    <span class="logo-line-after"><i></i></span>
+    -->
+    </div>
 </h1>
 
 {% if theme.menu %}
